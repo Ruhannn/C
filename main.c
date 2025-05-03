@@ -4,9 +4,6 @@ int main()
 {
 
     printf("i love ayaka");
-    /*
-    ! i really do
-    */
-
+    // i really do <3
     return 0;
 }
