@@ -22,8 +22,7 @@ int main() {
   int computerChoice = 1;
   int userChoice = getUserChoice();
 
-  while (1) {
-
+  do {
     printf("computer chose %d\n", computerChoice);
     // validation
     if (userChoice > 3 || userChoice == 0) {
@@ -48,7 +47,7 @@ int main() {
     // lose
     printf("you lose!");
     break;
-  }
+  } while (1);
 
   return 0;
 }
