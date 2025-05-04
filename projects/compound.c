@@ -26,6 +26,6 @@ int main() {
 
   total = p * pow(1 + (r / n), n * t);
 
-  printf("after %d years the total will be $%.2lf\n", t, total);
+  printf("after %d years, the total will be $%.2lf\n", t, total);
   return 0;
 }
