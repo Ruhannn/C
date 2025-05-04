@@ -1,5 +1,6 @@
 #include <math.h>
 #include <stdio.h>
+#define PI 3.141592653589793
 int main() {
   int x = 25;
   int y = 3;
@@ -34,6 +35,6 @@ int main() {
   // * log10 get the base 10 log of any number
   // * log1p get the log (1 + any number)
   // * log2 get the base 2 log of any number
-  x = log(x);
+  x = 10 * PI;
   printf("%d", x);
 }
